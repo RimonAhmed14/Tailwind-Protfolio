@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9056de3c1a.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        .Montagu {
+            font-family: 'Montagu Slab', serif;
+        }
+
+        .font-Manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white m-auto font-Manrope">
+    <section class="navBar container px-10">
+        <nav class="py-5 flex items-center justify-between ">
+            <div class="logo">
+                <h1 class="font-bold text-3xl">LOGO</h1>
+            </div>
+            <div class="menu md:flex items-center gap-7 hidden md:block">
+                <ul class="flex gap-7 justify-center">
+                    <li class="hover:text-[#E6AA32] transition duration-300"><a href="#">Home</a></li>
+                    <li class="hover:text-[#E6AA32] transition duration-300"><a href="#about">About Me</a></li>
+                    <li class="hover:text-[#E6AA32] transition duration-300"><a href="#projects">Projects</a></li>
+                    <li class="hover:text-[#E6AA32] transition duration-300"><a href="#testimonial">Testimonials</a></li>
+                </ul>
+                <div>
+                    <button
+                        class="bg-[#E6AA32] transition duration-300 hover:text-[#fff] h-12 w-40 rounded-full text-black">Downlaod
+                        CV</button>
+                </div>
+            </div>
+            <div class="menu md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </section>
+    <div class="border-t border-[#1C1C21]"></div>
+
+    <section class="container px-10">
+        <header>
+            <!-- hero section start -->
+            <section class="my-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4">
+                    <div class="order-2 md:order-1">
+                        <p class="text-[#797C86]">Web Developer</p>
+                        <h1 class="font-bold text-[40px] md:text-[40px] lg:text-[55px] Montagu uppercase">HI! This is
+                            <br> <span class="text-[#E6AA32]">Rimon
+                                Ahmed</span></h1>
+                        <p class="text-[#797C86] text-xs lg:text-base">As a web designer with four years of experience,
+                            I specialize in
+                            creating visually appealing
+                            and user-friendly websites. My expertise includes responsive design, UI/UX principles, and
+                            collaborating with clients to bring their visions to life.</p>
+                        <div class="space-x-2 mt-10">
+                            <button
+                                class="bg-[#E6AA32] transition duration-300 hover:text-gray-50 h-12 w-40 rounded-full text-black">Let’s
+                                Connect</button>
+                            <button class="hover:bg-[#E6AA32] transition-all duration-300 h-12 w-40 rounded-full">View
+                                Portfolios &nbsp; <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="m-auto order-1">
+                        <img src="images/avatar.svg" alt="" class="h-[400px] justify-center">
+                    </div>
+                </div>
+            </section>
+            <!-- hero section end -->
+        </header>
+
+        <!-- main section start -->
+        <main class="mb-36 mt-20">
+            <!-- expertise part start -->
+            <section class="pb-5">
+                <div class="text-center pb-16">
+                    <h3 class="text-[#797C86] text-xl uppercase">Specialties</h3>
+                    <h1 class="font-bold text-[35px] sm:text-[40px] uppercase">My specialities</h1>
+                    <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in creating
+                        visually appealing <br> and user-friendly websites. My expertise includes responsive design.</p>
+                </div>
+                <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-4">
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-1.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Front-End Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-2.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Back-End Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-3.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Full-Stack Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-4.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Web Application Security</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-5.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">E-commerce Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-6.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Cloud-Based Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-7.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Progressive Web Apps</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] rounded py-12 px-6 text-center">
+                        <img src="images/expertise/img-8.png" alt="" class="m-auto">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">AI-Powered Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- expertise part end -->
+
+            <!-- work part start -->
+            <section class="my-14 pb-5">
+                <div class="text-center pb-16">
+                    <h3 class="text-[#797C86] text-xl uppercase">recent works</h3>
+                    <h1 class="font-bold text-[35px] sm:text-[40px] uppercase">My Recent works</h1>
+                    <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in creating
+                        visually appealing <br> and user-friendly websites. My expertise includes responsive design</p>
+                </div>
+                <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+                    <div>
+                        <img src="images/recent-works/work-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/recent-works/work-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/recent-works/work-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/recent-works/work-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/recent-works/work-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/recent-works/work-6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- work part end -->
+
+            <!-- Services part start -->
+            <section class="my-14">
+                <div class="text-center pb-16">
+                    <h3 class="text-[#797C86] text-xl uppercase">Services</h3>
+                    <h1 class="font-bold text-[35px] sm:text-[40px] uppercase">My other services</h1>
+                    <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in creating
+                        visually appealing <br> and user-friendly websites. My expertise includes responsive design.</p>
+                </div>
+                <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-4">
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Website Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">E-Commerce Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Web App Development</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">API Dev. & Integration</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Cloud-Based Solutions</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Web Perform. Optimization</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">(SEO) Services</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div
+                        class=" bg-gradient-to-bl from-[#0E0E10] to-[#17171A3B] border rounded-lg border-[#1C1C21] py-12 px-6 text-center">
+                        <h1 class="text-[#E6E6E6] text-lg font-bold py-4">Website Maint. & Support</h1>
+                        <p class="text-[#E6E6E682] text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Services part end -->
+        </main>
+        <!-- main section end -->
+
+        <!-- FAQ’s part Start -->
+        <section class="my-10">
+            <div>
+                <p class="uppercase text-[#797C86] text-lg font-semibold">FAQ’s</p>
+                <h1 class="uppercase font-semibold text-3xl sm:text-4xl">Frequently Asked Questions</h1>
+                <div class="border-b border-[#1C1C21] pt-10"></div>
+            </div>
+            <div class="flex justify-between items-center">
+                <div class="py-7">
+                    <h1 class="uppercase text-[#AFB0B6] text-lg font-semibold">What areas of web development do you
+                        focus on?</h1>
+                    <p class="text-[#797C86] text-sm pt-5">I specialize in web development, creating websites that
+                        deliver unique user experiences.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-up border rounded-full border-[#1C1C21] p-4"></i>
+                </div>
+            </div>
+            <div class="border-b border-[#1C1C21]"></div>
+            <div class="flex justify-between items-center">
+                <div class="py-7">
+                    <h1 class="uppercase text-[#AFB0B6] text-lg font-semibold">How can I schedule a web development
+                        consultation with you?</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-down border rounded-full border-[#1C1C21] p-4"></i>
+                </div>
+            </div>
+            <div class="border-b border-[#1C1C21]"></div>
+            <div class="flex justify-between items-center">
+                <div class="py-7">
+                    <h1 class="uppercase text-[#AFB0B6] text-lg font-semibold">Can I choose a specific platform for my
+                        website?</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-down border rounded-full border-[#1C1C21] p-4"></i>
+                </div>
+            </div>
+            <div class="border-b border-[#1C1C21]"></div>
+            <div class="flex justify-between items-center">
+                <div class="py-7">
+                    <h1 class="uppercase text-[#AFB0B6] text-lg font-semibold">What tools and technologies do you use
+                        for web development?</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-down border rounded-full border-[#1C1C21] p-4"></i>
+                </div>
+            </div>
+            <div class="border-b border-[#1C1C21]"></div>
+            <div class="flex justify-between items-center">
+                <div class="py-7">
+                    <h1 class="uppercase text-[#AFB0B6] text-lg font-semibold">Can I choose a specific platform for my
+                        website?</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-down border rounded-full border-[#1C1C21] p-4"></i>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ’s part End -->
+    </section>
+
+    <!-- footer part start -->
+    <section class="mt-32 mb-20">
+        <div class="border-t border-[#1C1C21]"></div>
+        <div class="container grid grid-cols-2 sm:grid-cols-3 gap-y-8 lg:grid-cols-5 justify-items-center pt-20">
+            <div>
+                <h1 class="text-[#797C86] uppercase font-semibold text-md pb-4">Solutions</h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Glintopia</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fluxway</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fable’s</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">PowerCore</a></h1>
+            </div>
+
+            <div>
+                <h1 class="text-[#797C86] uppercase font-semibold text-md pb-4">Solutions</h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Glintopia</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fluxway</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fable’s</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">PowerCore</a></h1>
+            </div>
+
+            <div>
+                <h1 class="text-[#797C86] uppercase font-semibold text-md pb-4">Solutions</h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Glintopia</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fluxway</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fable’s</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">PowerCore</a></h1>
+            </div>
+
+            <div>
+                <h1 class="text-[#797C86] uppercase font-semibold text-md pb-4">Solutions</h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Glintopia</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fluxway</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Fable’s</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">PowerCore</a></h1>
+            </div>
+
+            <div>
+                <h1 class="text-[#797C86] uppercase font-semibold text-md pb-4">Solutions</h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Visions</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">Gatherings</a></h1>
+                <h1
+                    class="underline decoration-[#393939] underline-offset-8 uppercase text-[#F2F2F3] font-semibold text-md py-2">
+                    <a href="" class="hover:text-[#E6AA32] transition duration-300">BizSphere</a></h1>
+            </div>
+        </div>
+    </section>
+    <div class="border-t border-[#1C1C21]"></div>
+    <footer class="container px-8 py-6 grid grid-cols-1 sm:grid-cols-2 justify-center text-center">
+        <div>
+            <p class="text-[#797C86] text-sm"><a href="" class="hover:text-[#E6AA32] transition duration-300">Terms &
+                    Conditions </a><span class="border-e border-[#1C1C21]"></span><a href=""
+                    class="hover:text-[#E6AA32] transition duration-300"> &nbsp;Privacy Policy</a></p>
+        </div>
+        <div>
+            <p class="text-[#797C86] pt-2 sm:pt-0 text-sm">&copy; 2024 All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- footer part End -->
+</body>
+
+</html>
